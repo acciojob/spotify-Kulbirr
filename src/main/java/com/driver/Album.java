@@ -3,7 +3,7 @@ package com.driver;
 import java.util.Date;
 import java.util.List;
 
-public class Album {
+public class Album{
     private String title;
     private Date releaseDate;
 
@@ -14,7 +14,8 @@ public class Album {
     public Album(String title){
         this.title = title;
         this.releaseDate = new Date();
-    }
+      }
+
 
     public String getTitle() {
         return title;

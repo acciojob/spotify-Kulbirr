@@ -4,7 +4,6 @@ public class Song {
     private String title;
     private int length;
     private int likes;
-
     public Song(){
 
     }
